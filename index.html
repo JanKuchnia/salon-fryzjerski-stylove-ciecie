@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Fryzjerski Stylove Cięcie - Krzyszkowice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@800&family=Literata:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            page: '#ebe5e3',
+            surface: '#e1dad7',
+            txt: '#2b2622',
+            subtxt: '#6a615d',
+            accent: '#0f7d45'
+          },
+          fontFamily: {
+            rokkitt: ['Rokkitt', 'serif'],
+            literata: ['Literata', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #ebe5e3;
+      color: #2b2622;
+      font-family: 'Literata', serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .font-rokkitt {
+      font-family: 'Rokkitt', serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+    }
+    .hero-title {
+      font-family: 'Rokkitt', serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      white-space: nowrap;
+      font-size: clamp(2rem, 8.5vw, 6.75rem);
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+    }
+    .exhibit-img {
+      filter: grayscale(100%) contrast(106%) brightness(98%);
+      transition: filter 0.4s ease;
+    }
+    .exhibit-img:hover {
+      filter: grayscale(100%) contrast(115%) brightness(102%);
+    }
+    .btn-accent {
+      background-color: #0f7d45;
+      color: #ffffff;
+      transition: background-color 0.2s ease, opacity 0.2s ease;
+    }
+    .btn-accent:hover {
+      background-color: #0c6738;
+    }
+  </style>
+</head>
+<body class="bg-page text-txt selection:bg-surface min-h-screen flex flex-col justify-between">
+
+  <header class="w-full pt-8 pb-6 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto flex items-center justify-between">
+    <a href="#" class="font-rokkitt text-2xl tracking-tight text-txt hover:opacity-80 transition-opacity">
+      Stylove Cięcie
+    </a>
+    <nav class="flex items-center space-x-8 text-[15px] tracking-wide">
+      <a href="#o-salonie" class="text-accent font-semibold transition-colors">O salonie</a>
+      <a href="#kontakt" class="text-subtxt hover:text-txt transition-colors">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="w-full flex-grow">
+
+    <section class="px-6 md:px-12 lg:px-20 max-w-7xl mx-auto pt-8 pb-24 md:pb-36 flex flex-col items-center text-center">
+      <div class="w-full max-w-[560px] md:w-[45vw] mx-auto mb-10 md:mb-14 overflow-hidden">
+        <img
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv_xQOoI5YTjL9k4H8zgNw8So55N9T9KA-CICj9miZ6D2bryc5gdYBj1tq5bs_XrzUhg_fxtxsCIhMmkf7ZN0yBauBxerGSZF4SH5-q1QogaE9bmoSEkZ3T6T-wUjXPqQHq-NbQkOvrhgiC7k7cOz7EOuuaInRA-0YhWAWzVQ68cWDS3sMWcTjcQHhMJgjTZ5Rxu_7GIAEuNJVRs0Do29in0IzhwnlQFIYJ7GjQw3HCrJLg9ybAQbqU8JZt6YDp-6vgeSTJHlJZfM"
+          alt="Wnętrze salonu fryzjerskiego Stylove Cięcie w Krzyszkowicach"
+          class="w-full h-auto object-cover exhibit-img aspect-[4/3] block"
+        />
+      </div>
+      <div class="w-full overflow-hidden flex flex-col items-center">
+        <h1 class="hero-title text-txt mb-5">Stylove Cięcie</h1>
+        <p class="text-[17px] md:text-[18px] text-subtxt max-w-2xl leading-relaxed mb-8 font-normal">
+          Salon fryzjerski w Krzyszkowicach koło Myślenic. Strzyżenie, które pasuje do Ciebie.
+        </p>
+        <div>
+          <a href="tel:+48572393131" class="btn-accent inline-flex items-center justify-center px-8 py-4 text-base font-medium tracking-wide">
+            Zadzwoń: +48 572 393 131
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-salonie" class="px-6 md:px-12 lg:px-20 max-w-7xl mx-auto py-20 md:py-32">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 items-center">
+        <div class="md:col-span-6 lg:col-span-7">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt26TFq_T6wFRNmmXlTK9DkA3n4gEfaB70WwTWbZ_MH2inSmuBS38LZv_MxVekfbl9eecCYyNk20KuQixIovAKP_ry2ac84njC0m95dkcNwE1wCWNA7BNtu34JB2p7wZl79i3xhlxDVu_lmxcpmv6u71DSTB785Elf_FR_xBFKdlb-0O0mGEA1dS9Fq_sPs6gY0w40GZINRrnpTh_df2CT3Syf5egKYfRUpLxag0PRCudVl4_2fs1ZOZlIItyAxBKnFdOiwbXmEqI"
+            alt="Profesjonalne nożyczki i grzebień fryzjerski"
+            class="w-full h-auto object-cover exhibit-img aspect-[16/9] block"
+          />
+        </div>
+        <div class="md:col-span-6 lg:col-span-5 md:pl-4">
+          <h2 class="font-rokkitt text-3xl md:text-5xl text-txt mb-6 leading-tight">Fryzjer blisko Myślenic</h2>
+          <p class="text-base md:text-lg text-subtxt leading-relaxed font-normal">
+            Stylove Cięcie to salon fryzjerski w Krzyszkowicach. Umów wizytę telefonicznie lub mailowo – chętnie ustalimy termin i zakres usługi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 lg:px-20 max-w-7xl mx-auto py-20 md:py-32">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 items-center">
+        <div class="md:col-span-7 lg:col-span-7 md:pr-10 order-2 md:order-1">
+          <h2 class="font-rokkitt text-3xl md:text-5xl text-txt mb-6 leading-tight">Wizyta bez pośpiechu</h2>
+          <p class="text-base md:text-lg text-subtxt leading-relaxed font-normal max-w-xl">
+            Przyjdź na strzyżenie, modelowanie lub konsultację fryzury. Szczegóły usług i cennik podamy przy kontakcie.
+          </p>
+        </div>
+        <div class="md:col-span-5 lg:col-span-5 order-1 md:order-2">
+          <div class="max-w-[420px] ml-auto">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJO_6YQ_YvGv9Hq7qQEn9sqrdEoXldLZM8QwgwQ4LIBhodiiVn7Ig7yHljKL5H5xG5xTDiAhNmks5UWr3r9sinPl5Jqcsv4K39UxJEOk6rJzlaCiUl8SWtEacKcuAxkQVwImJyiA6a52H4jy9DU3rJkH_gQy256FI2zRksDXO0Vg00FdSbD2K0hNM35jSXSXY0JAoTAZ3AQbPEWBoxZFTJmeiAJYMt7K7_MzXAW0MCs6zuOXI9IrKnVVfRzZyYz2JqFX2ozyLLzew"
+              alt="Narzędzia fryzjerskie w świetle wystawowym"
+              class="w-full h-auto object-cover exhibit-img aspect-[3/4] block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="px-6 md:px-12 lg:px-20 max-w-7xl mx-auto pt-20 md:pt-32 pb-24 border-t border-[#e1dad7]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 mb-16">
+        <div>
+          <h3 class="font-rokkitt text-2xl md:text-3xl text-txt mb-6">Adres</h3>
+          <div class="space-y-3 text-base md:text-lg text-subtxt leading-relaxed">
+            <p class="text-txt font-medium">Krzyszkowice 8, 32-445 (gmina Myślenice)</p>
+            <p>Telefon: <a href="tel:+48572393131" class="text-txt hover:underline">+48 572 393 131</a></p>
+            <p>E-mail: <a href="mailto:styloveciecie@gmail.com" class="text-txt hover:underline">styloveciecie@gmail.com</a></p>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-rokkitt text-2xl md:text-3xl text-txt mb-6">Godziny otwarcia</h3>
+          <div class="space-y-2 text-base md:text-lg text-subtxt leading-relaxed">
+            <p><span class="text-txt font-medium">Poniedziałek–piątek:</span> 9:00–18:00</p>
+            <p><span class="text-txt font-medium">Sobota:</span> 8:00–15:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-4">
+        <a href="tel:+48572393131" class="btn-accent inline-flex items-center justify-center px-8 py-4 text-base font-medium tracking-wide">
+          Zadzwoń: +48 572 393 131
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="w-full px-6 md:px-12 lg:px-20 max-w-7xl mx-auto py-10 flex flex-col md:flex-row items-center justify-between text-sm text-subtxt border-t border-[#e1dad7]">
+    <p>© Salon Fryzjerski Stylove Cięcie</p>
+    <p class="mt-2 md:mt-0 text-xs tracking-wider uppercase">Krzyszkowice • Myślenice</p>
+  </footer>
+
+</body>
+</html>
